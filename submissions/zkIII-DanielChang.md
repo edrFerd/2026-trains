@@ -178,6 +178,6 @@ GameBridge（Playwright 无头 Edge + 本地静态服务）
 
 **关于 AI 辅助**：开发过程中使用了 AI 辅助编码，所有代码均经本人审查、理解并实际联调通过，可现场解释任一模块的实现思路与设计取舍。
 
-**工程规范**：MIT License、`requirements.txt` 依赖清单、`.env.example` 配置模板、`.gitignore`、`src/e2e_test.py` 端到端测试。
+**工程规范**：AGPL-3.0 许可证（根目录 `LICENSE`）、`requirements.txt` 依赖清单、`.env.example` 配置模板、`.gitignore`、GitHub Actions CI（`.github/workflows/ci.yml`：push / PR 自动在 ubuntu + windows × Python 3.10 / 3.12 四组合下跑测试，外加导入与类型注解健全性检查）、`tests/` 下 140 个 pytest 单元测试（覆盖 DSML 解析、观测文本格式化、工具预算与规则拒绝、策略基线、零 API 主循环，全部不依赖浏览器与 LLM）、`src/e2e_test.py` 端到端冒烟测试。
 
 **致谢**：感谢 Datawhale 社区和 Hello-Agents 项目。
