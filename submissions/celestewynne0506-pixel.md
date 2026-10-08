@@ -20,8 +20,8 @@
 - Release：https://github.com/celestewynne0506-pixel/bazi-app/releases/tag/v1.3.0（附更新日志 CHANGELOG.md）
 - 仓库（私有）：https://github.com/celestewynne0506-pixel/bazi-app
   已邀请 @shenjackyuanjie 为协作者，接受邀请后可查看全部代码与提交记录
-- 训练营期间全部增量（对比页）：https://github.com/celestewynne0506-pixel/bazi-app/compare/camp-start...main
-- 在线 Demo：https://bazi-app-omega-seven.vercel.app/
+- 训练营期间全部增量（对比页）：https://github.com/celestewynne0506-pixel/bazi-app/compare/camp-start...v1.3.0
+- 在线 Demo：https://skyrede.com/ （网站首页是产品介绍，点「开始排盘」用邮箱验证码登录后进入；旧地址 bazi-app-omega-seven.vercel.app 不再维护）
 
 ## 训练营开始前 / 训练营期间的分界
 
@@ -48,6 +48,17 @@
    - 调候与格局取用分歧时，标明「默认」走哪一路并加「去校准」直达校准流程；
    - 合盘称号卡换上六幅（三种纸 × 白天 / 夜色）无字底图。
 6. **文档**：README、产品文档与逐页图解按现状重写，截图全部重出。
+
+## 截止之后的后续维护（9/27 之后）
+
+训练营截止后项目仍在持续维护。
+对比页：https://github.com/celestewynne0506-pixel/bazi-app/compare/v1.3.0...2434714a11a2（23 个 commit，截至 10/7）
+
+1. **独立域名与网站首页**：网站换到 skyrede.com。首页改为一张产品介绍页（Blender 渲染的白鸽穿云开场 + Three.js 实时生成的云海 + 下滑的六条介绍），排盘应用挪到 `/app/`。
+2. **账号与云端备份**：邮箱验证码登录，命例、合盘、占事记录在本机加密后备份到云端，换设备登录即取回并与本机合并；补了用户协议与隐私政策、注册时的人机验证。
+3. **解读质量**：性情一节接入《滴天髓》天干章；特殊格局的判据按原文逐条重校；全站「依据」统一改为「出处 + 一句原文 + 白话解释」。
+4. **加载提速**：合盘、万年历、占事等五个次要页面改为按需加载、进站后空闲时预取，首屏更快。
+5. **界面**：主界面天上的飞鸟改用开场那只白鸽的振翅剪影（Blender 渲 24 帧精灵图）；复制、刷新、翻页改成图标键。
 
 ## 过程记录
 
